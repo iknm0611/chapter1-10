@@ -76,15 +76,13 @@ footer {
     display: block;
   }
 
-  .step-box1 {
-    margin-top: 50px;
-    margin-bottom: 20px;
+  .step-box {
+    margin: 20px auto ;
   }
 
-  .step-box2 {
-    margin-bottom: 20px;
+  .step-box:last-child {
+    margin: 0 auto;
+    padding: 0 auto;
   }
-  .step-box3 {
-    margin-bottom: 50px;
-  }
-}
+
+
